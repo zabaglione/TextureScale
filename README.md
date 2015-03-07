@@ -40,17 +40,15 @@ Oculus SDK 0.4.4において外部からTextuteScaleを変更できる機能を�
 * アプリをビルドする
 * dataフォルダをアプリと同じところにコピーする(ファイルではなく、フォルダごとコピー)
 
-'
-====設定後のイメージ(Windows)====
-    OculusApp.exe
-    OculusApp_DirectToRift.exe
-    OculusApp_Data\
-    data\
+    ====設定後のイメージ(Windows)====
+        OculusApp.exe
+        OculusApp_DirectToRift.exe
+        OculusApp_Data\
+        data\
 
-====設定後のイメージ(Mac OS X)====
-    OculusApp.app
-    data/
-'
+    ====設定後のイメージ(Mac OS X)====
+        OculusApp.app
+        data/
 
 * アプリ実行前にdata/ConfigTextureScale.txtファイルを確認
 * アプリを実行
