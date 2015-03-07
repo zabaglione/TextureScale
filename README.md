@@ -1,23 +1,23 @@
 # TextureScale
 
-ŠT—v
+æ¦‚è¦
 
-Oculus SDK 0.4.4‚É‚¨‚¢‚ÄŠO•”‚©‚çTextuteScale‚ð•ÏX‚Å‚«‚é‹@”\‚ð’Ç‰Á‚·‚éB
+Oculus SDK 0.4.4ã«ãŠã„ã¦å¤–éƒ¨ã‹ã‚‰TextuteScaleã‚’å¤‰æ›´ã§ãã‚‹æ©Ÿèƒ½ã‚’è¿½åŠ ã™ã‚‹ã€‚
 
-Žg‚¢•û
+ä½¿ã„æ–¹
 
-* OculusUnityIntegration.unitypackage‚ðŽæ‚èž‚Þ
-* TextureScale.cs‚ð’Ç‰Á‚·‚é
-* dataƒtƒHƒ‹ƒ_‚ðAssets‚Ìƒgƒbƒv‚ÉƒRƒs[‚·‚é
-* data/ConfigTextureScale.txt‚ð“K“–‚É•ÒW‚·‚é
-*OVRManager.cs‚Ì325s–Ú‚ÉˆÈ‰º‚Ìs‚ð‰Á‚¦‚é
+* OculusUnityIntegration.unitypackageã‚’å–ã‚Šè¾¼ã‚€
+* TextureScale.csã‚’è¿½åŠ ã™ã‚‹
+* dataãƒ•ã‚©ãƒ«ãƒ€ã‚’Assetsã®ãƒˆãƒƒãƒ—ã«ã‚³ãƒ”ãƒ¼ã™ã‚‹
+* data/ConfigTextureScale.txtã‚’é©å½“ã«ç·¨é›†ã™ã‚‹
+*OVRManager.csã®325è¡Œç›®ã«ä»¥ä¸‹ã®è¡Œã‚’åŠ ãˆã‚‹
 
 '
         TextureScale.InitTextureScale();
 '
 
 '
-==== OVRManager.cs:313`327s–Ú‚ÌƒCƒ[ƒW ===
+==== OVRManager.cs:313ï½ž327è¡Œç›®ã®ã‚¤ãƒ¡ãƒ¼ã‚¸ ===
 
 	private void Awake()
 	{
@@ -33,28 +33,28 @@ Oculus SDK 0.4.4‚É‚¨‚¢‚ÄŠO•”‚©‚çTextuteScale‚ð•ÏX‚Å‚«‚é‹@”\‚ð’Ç‰Á‚·‚éB
 
         TextureScale.InitTextureScale();
 
-#if !UNITY_ANDROID || UNITY_EDITOR
+\#if !UNITY_ANDROID || UNITY_EDITOR
 		if (!ovrIsInitialized)
 
 ===============================
 '
 
-* UnityEditorã‚ÅŽÀs‚µ“®ìŠm”F‚ð‚·‚é
+* UnityEditorä¸Šã§å®Ÿè¡Œã—å‹•ä½œç¢ºèªã‚’ã™ã‚‹
 
-* ƒAƒvƒŠ‚ðƒrƒ‹ƒh‚·‚é
-* dataƒtƒHƒ‹ƒ_‚ðƒAƒvƒŠ‚Æ“¯‚¶‚Æ‚±‚ë‚ÉƒRƒs[‚·‚é(ƒtƒ@ƒCƒ‹‚Å‚Í‚È‚­AƒtƒHƒ‹ƒ_‚²‚ÆƒRƒs[)
+* ã‚¢ãƒ—ãƒªã‚’ãƒ“ãƒ«ãƒ‰ã™ã‚‹
+* dataãƒ•ã‚©ãƒ«ãƒ€ã‚’ã‚¢ãƒ—ãƒªã¨åŒã˜ã¨ã“ã‚ã«ã‚³ãƒ”ãƒ¼ã™ã‚‹(ãƒ•ã‚¡ã‚¤ãƒ«ã§ã¯ãªãã€ãƒ•ã‚©ãƒ«ãƒ€ã”ã¨ã‚³ãƒ”ãƒ¼)
 
 '
-====Ý’èŒã‚ÌƒCƒ[ƒW(Windows)====
+====è¨­å®šå¾Œã®ã‚¤ãƒ¡ãƒ¼ã‚¸(Windows)====
     OculusApp.exe
     OculusApp_DirectToRift.exe
     OculusApp_Data\
     data\
 
-====Ý’èŒã‚ÌƒCƒ[ƒW(Mac OS X)====
+====è¨­å®šå¾Œã®ã‚¤ãƒ¡ãƒ¼ã‚¸(Mac OS X)====
     OculusApp.app
     data/
 '
 
-* ƒAƒvƒŠŽÀs‘O‚Édata/ConfigTextureScale.txtƒtƒ@ƒCƒ‹‚ðŠm”F
-* ƒAƒvƒŠ‚ðŽÀs
+* ã‚¢ãƒ—ãƒªå®Ÿè¡Œå‰ã«data/ConfigTextureScale.txtãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç¢ºèª
+* ã‚¢ãƒ—ãƒªã‚’å®Ÿè¡Œ
