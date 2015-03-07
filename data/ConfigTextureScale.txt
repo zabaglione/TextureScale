@@ -1,0 +1,2 @@
+﻿nativeTextureScale,1.0
+virtualTextureScale,1.0
