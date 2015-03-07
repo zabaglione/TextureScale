@@ -10,13 +10,10 @@ Oculus SDK 0.4.4において外部からTextuteScaleを変更できる機能を�
 * TextureScale.csを追加する
 * dataフォルダをAssetsのトップにコピーする
 * data/ConfigTextureScale.txtを適当に編集する
-*OVRManager.csの325行目に以下の行を加える
+* OVRManager.csの325行目に以下の行を加える
 
-'
-        TextureScale.InitTextureScale();
-'
+    TextureScale.InitTextureScale();
 
-'
 ==== OVRManager.cs:313～327行目のイメージ ===
 
 	private void Awake()
@@ -37,7 +34,6 @@ Oculus SDK 0.4.4において外部からTextuteScaleを変更できる機能を�
         if (!ovrIsInitialized)
 
 ===============================
-'
 
 * UnityEditor上で実行し動作確認をする
 
