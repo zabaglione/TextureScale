@@ -33,8 +33,8 @@ Oculus SDK 0.4.4において外部からTextuteScaleを変更できる機能を�
 
         TextureScale.InitTextureScale();
 
-\#if !UNITY_ANDROID || UNITY_EDITOR
-		if (!ovrIsInitialized)
+    #if !UNITY_ANDROID || UNITY_EDITOR
+        if (!ovrIsInitialized)
 
 ===============================
 '
